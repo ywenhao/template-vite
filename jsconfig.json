@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
-    "sourceMap": true,
     "target": "esnext",
+    "useDefineForClassFields": true,
     "module": "esnext",
+    "allowJs": true,
     "moduleResolution": "node",
+    "strict": true,
+    "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "strict": true,
     "baseUrl": "./",
     "paths": {
       "@/*": [
@@ -29,5 +31,6 @@
   "include": [
     "src/**/*.js",
     "src/**/*.vue",
+    "./typings/*.d.ts"
   ]
 }
